@@ -1,28 +1,31 @@
-# Smart Resume Analyzer 🚀
+# 📝 Smart Resume Analyzer
 
-An AI-powered resume analysis app built with **Streamlit**, **spaCy**, and **pdfminer.six**.  
-It extracts user details from resumes, identifies skills, assigns a score, and provides recommendations.  
+An AI-powered web application that analyzes resumes and provides insights on skills, formatting, and job relevance.  
+This project demonstrates **Natural Language Processing (NLP)**, **Flask-based development**, and resume parsing using Python utilities.
+
+---
 
 ## ✨ Features
-- Extracts **Name, Email, Phone, Skills, Page Count**
-- Resume Scoring based on key sections (Summary, Experience, Projects, Certifications)
-- User & Admin modes
-- Skill & Course recommendations
-- Interactive analytics with Plotly
+- 📄 Upload resumes (PDF) for automated analysis  
+- 🧠 Extract and evaluate **skills, education, and experience**  
+- 📊 Score resumes against job descriptions  
+- 🔑 Highlight missing keywords and suggest improvements  
+- 👤 User & Admin views for role-based features  
 
-## 🛠️ Tech Stack
-- Python, Streamlit
-- spaCy (NLP), Regex
-- pdfminer.six (PDF parsing)
-- MySQL (Database)
-- Plotly (Charts)
+---
 
-## 🚀 Run Locally
+## 🛠 Tech Stack
+- **Backend:** Python, Flask  
+- **NLP/ML:** scikit-learn, spaCy / NLTK  
+- **PDF Parsing:** PyPDF2 / PDFMiner  
+- **Frontend:** HTML, CSS, Bootstrap  
+- **Other:** GitHub Actions (CI/CD), Docker (optional for deployment)  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/resume-analyzer.git
-cd resume-analyzer
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-streamlit run app.py
+git clone https://github.com/tanujsurana/smart-resume-analyzer.git
+cd smart-resume-analyzer
