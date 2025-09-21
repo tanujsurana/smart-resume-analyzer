@@ -1,6 +1,10 @@
 # 📝 Smart Resume Analyzer
 
-An AI-powered web application that analyzes resumes and provides insights on skills, formatting, and job relevance.  
+![Python](https://img.shields.io/badge/Python-3.9-blue) 
+![Flask](https://img.shields.io/badge/Flask-Framework-green) 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+
+An **AI-powered web application** that analyzes resumes and provides insights on skills, formatting, and job relevance.  
 This project demonstrates **Natural Language Processing (NLP)**, **Flask-based development**, and resume parsing using Python utilities.
 
 ---
